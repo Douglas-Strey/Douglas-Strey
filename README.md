@@ -1,16 +1,18 @@
-### Hi there 👋
+# Hey, dev 👋🏼
 
-<!--
-**Douglas-Strey/Douglas-Strey** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+My name is Douglas Strey, I'm from Brazil 🇧🇷 I'm a future Software Engineer.
+I've been studying Front-end development since 2020. 👨🏼‍💻
 
-Here are some ideas to get you started:
+I'm passionate about technology, development and learning. Always open to new challenges and ready to face changes.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 📍 From SC
+- I have a little [website](https://douglastrey.com/) that I use for my personal portfolio 🤠
+- 🔭 I’m currently working on my pessoal projects
+- 🌱 I’m currently learning ReactJS
+
+Reach me out 👇🏼
+
+[![Linkedin Badge](https://img.shields.io/badge/-Douglas%20Strey-4575cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/douglas-strey/)](https://www.linkedin.com/in/douglas-strey/)
+[![Instagram Badge](https://img.shields.io/badge/-Instagram-yellow?style=flat-square&logo=Instagram&logoColor=white&link=https://instagram.com/douglas_strey)](https://instagram.com/douglas_strey)
+[![Gmail Badge](https://img.shields.io/badge/-douglas.morini@hotmail.com-yellowcc?style=flat-square&logo=Gmail&logoColor=white&link=mailto:douglas.morini@hotmail.com)](mailto:douglas.morini@hotmail.com)
+
