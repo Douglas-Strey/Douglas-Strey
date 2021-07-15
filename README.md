@@ -7,8 +7,8 @@ I'm passionate about technology, development and learning. Always open to new ch
 
 - 📍 From SC
 - I have a little [website](https://douglastrey.com/) that I use for my personal portfolio 🤠
-- 🔭 I’m currently working on my pessoal projects
-- 🌱 I’m currently learning ReactJS
+- 🔭 I’m currently working on my pessoal projects.
+- 🌱 I’m currently learning ReactJS, Bootstrap and Jquery.
 
 Reach me out 👇🏼
 
