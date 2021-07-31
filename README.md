@@ -31,3 +31,4 @@ Reach me out 👇🏼
 
 [![Linkedin Badge](https://img.shields.io/badge/-Douglas%20Strey-4575cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/douglas-strey/)](https://www.linkedin.com/in/douglas-strey/)
 [![Instagram Badge](https://img.shields.io/badge/-Instagram-yellow?style=flat-square&logo=Instagram&logoColor=white&link=https://instagram.com/douglas_strey)](https://instagram.com/douglas_strey)
+<img src="https://komarev.com/ghpvc/?username=Douglas-Strey&color=green" alt="Douglas-Strey" /> 
