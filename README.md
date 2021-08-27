@@ -22,8 +22,8 @@ I've been studying Front-end development since 2020. 👨🏼‍💻
 
 I'm passionate about technology, development and learning. Always open to new challenges and ready to face changes.
 
-- 📍 From SC
-- I have a little [website](https://douglastrey.com/) that I use as my personal portfolio 🤠
+- 📍 From SC, Brazil.
+- I have a little [website](https://douglastrey.com/) that I use as my personal portfolio 🤠.
 - 🔭 I’m currently working on Bom Jesus IELUSC.
 - 🌱 I’m currently learning PHP POO, Node.js and REACT.js.
 
