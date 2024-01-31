@@ -24,8 +24,7 @@ I'm passionate about technology, development and learning. Always open to new ch
 
 - 📍 From SC, Brazil.
 - I have a little [website](https://douglastrey.com/) that I use as my personal portfolio 🤠.
-- 🔭 I’m currently working on Bom Jesus IELUSC.
-- 🌱 I’m currently learning Node.js and REACT.js.
+- 🔭 I’m currently working at Bash Technology with Vue.JS, Nuxt3, Golang and CockroachDB.
 
 [![Linkedin Badge](https://img.shields.io/badge/-Douglas%20Strey-4575cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/douglas-strey/)](https://www.linkedin.com/in/douglas-strey/)
 [![Instagram Badge](https://img.shields.io/badge/-Instagram-yellow?style=flat-square&logo=Instagram&logoColor=white&link=https://instagram.com/douglas_strey)](https://instagram.com/douglas_strey)
