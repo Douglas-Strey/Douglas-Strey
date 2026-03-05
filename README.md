@@ -1,7 +1,7 @@
 ## Hey, dev 👋🏼
 
 Sou o **Douglas Strey**, de Santa Catarina – Brasil 🇧🇷  
-**Tech Lead** na Hisoft e futuro **Software Engineer**, apaixonado por tecnologia, desenvolvimento web e aprendizado contínuo.
+**Tech Lead** e **Senior Back end** na Hisoft, apaixonado por tecnologia, desenvolvimento web e aprendizado contínuo.
 
 > "Always learning, always building."
 
@@ -10,9 +10,9 @@ Sou o **Douglas Strey**, de Santa Catarina – Brasil 🇧🇷
 ## Sobre mim
 
 - **Localização**: Santa Catarina, Brasil  
-- **Atuação atual**: Tech Lead na **Hisoft**, trabalhando principalmente com **PHP** (como no projeto do **Quimerax**)  
+- **Atuação atual**: Tech Lead na **Hisoft**, trabalhando principalmente com **PHP**
 - **Stack principal**: PHP, Laravel, MySQL, **Vue.js** e **Nuxt**  
-- **Experiência**: estudando desenvolvimento web desde **2020**  
+- **Experiência**: estudando desenvolvimento web desde **2019**  
 - **Interesses**: boas práticas de código, arquitetura de aplicações, performance e experiências de usuário modernas  
 - **Perfil**: sempre aberto a novos desafios, novas tecnologias e oportunidades para crescer como engenheiro de software
 
@@ -31,16 +31,6 @@ Sou o **Douglas Strey**, de Santa Catarina – Brasil 🇧🇷
   <img align="center" alt="Douglas-MySQL" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
   <img align="center" alt="Douglas-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 </div>
-
----
-
-## O que estou fazendo atualmente
-
-- **Tech Lead na Hisoft**, liderando times e projetos com foco em **PHP** e **arquitetura web**  
-- **Desenvolvendo e mantendo** aplicações robustas em **PHP/Laravel** e **MySQL**  
-- **Explorando e aprimorando** projetos com **Vue.js** e **Nuxt** para front-ends modernos  
-- **Aprofundando conhecimentos** em boas práticas, clean code, testes e arquitetura escalável  
-- **Criando projetos pessoais** (como o Quimerax e outros) para testar ideias e novas tecnologias
 
 ---
 
