@@ -74,9 +74,9 @@ def noise(i):  # readable, deterministic
 
 ROWS = [
     ("quimerax", "threat intelligence"),
-    ("fiscaliza", "civic · api + mobile"),
+    ("fiscaliza", "civic inspection"),
     ("acolher", "healthcare"),
-    ("sigri", "desktop + api"),
+    ("sigri", ""),
 ]
 STACK = [
     ("backend", "PHP · Laravel · Python · Go · REST &amp; GraphQL APIs"),
@@ -86,7 +86,7 @@ STACK = [
     ("platform", "Docker · GitHub Actions · AWS · DigitalOcean · Sentry"),
     ("practice", "code review · testing (Pest, PHPUnit) · mentoring · architecture"),
 ]
-DESC_B = "Douglas Strey — Tech Lead and Senior Software Engineer, Santa Catarina Brazil, shipping QuimeraX, Fiscaliza, Acolher and SIGRI"
+DESC_B = "Douglas Strey — Tech Lead and Senior Software Engineer, Santa Catarina Brazil, shipping QuimeraX (threat intelligence), Fiscaliza (civic inspection), Acolher (healthcare) and SIGRI"
 DESC_S = "Stack — backend PHP Laravel Python Go; frontend Vue Nuxt TypeScript; mobile React Native Expo Swift; data MySQL PostgreSQL Redis; platform Docker GitHub Actions AWS"
 
 CYCLE = 7.0

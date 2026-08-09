@@ -5,9 +5,9 @@
   <img alt="Douglas Strey — Tech Lead and Senior Software Engineer, Santa Catarina, Brazil" src="./assets/banner-light.svg">
 </picture>
 
-I work as **Tech Lead** and **Senior Software Engineer** at **[Hisoft](https://github.com/hisoft-br)** and **Podtech**, two companies under the same group. I take products from architecture to production: Laravel APIs, Vue and Nuxt front ends, React Native apps, and the pipelines and infrastructure that keep them running.
+I work as **Tech Lead** and **Senior Software Engineer** at **[Hisoft](https://github.com/hisoft-br)** and **Podtech**, two companies under the same group. I take products from architecture to production — API design, web and mobile clients, and the pipelines and infrastructure that keep them running.
 
-Most of my week goes into **[QuimeraX](https://quimerax.com)**, the Hakai group's threat intelligence platform — attack surface monitoring, leak and vulnerability detection, and takedown automation. The rest goes to **Fiscaliza** (civic inspection: Laravel API, Vue dashboard, Expo app with NFC and offline capture), **Acolher** (healthcare), **SIGRI** (desktop + API) and **[Verity](https://github.com/VerityProjects)**.
+Most of my week goes into **[QuimeraX](https://quimerax.com)**, the Hakai group's threat intelligence platform — attack surface monitoring, leak and vulnerability detection, and takedown automation. The rest goes to **Fiscaliza** (civic inspection), **Acolher** (healthcare), **SIGRI**, and **[Verity](https://veritycash.com.br)** (AI for cash flow and financial intelligence).
 
 The parts I actually care about are the ones that survive the first release: clear boundaries between modules, tests that catch something real, review culture, and making the engineers around me faster than they were last quarter.
 
