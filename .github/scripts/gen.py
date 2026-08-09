@@ -90,6 +90,7 @@ DESC_B = "Douglas Strey — Tech Lead and Senior Software Engineer, Santa Catari
 DESC_S = "Stack — backend PHP Laravel Python Go; frontend Vue Nuxt TypeScript; mobile React Native Expo Swift; data MySQL PostgreSQL Redis; platform Docker GitHub Actions AWS"
 
 CYCLE = 7.0
+PEAK = 0.03  # keyframe fraction at which a tick reaches full brightness
 
 
 def wrap(value, avail_px, size):
@@ -109,16 +110,22 @@ def wrap(value, avail_px, size):
 
 
 def telemetry(p, x0, x1, base_y, pitch, tall_h, short_h, sweep_w, width):
-    """One authored motion: a scan crossing the strip, ticks lighting in its wake."""
+    """One authored motion: a scan crossing the strip, ticks lighting under its head.
+
+    Each tick's delay is derived from when the scan's leading line reaches that
+    tick, so the highlight peaks beneath the line and decays behind it. Deriving
+    it from the group's left edge instead put the highlight 302px in arrears.
+    PEAK is shared with the keyframes below; the two must not drift apart again.
+    """
     out = [f'<line x1="{x0}" y1="{base_y + .5}" x2="{x1}" y2="{base_y + .5}" stroke="{p["line"]}"/>']
     n = int((x1 - x0) / pitch)
-    span = width + sweep_w
+    speed = (width + sweep_w) / CYCLE  # px per second the scan travels
     for i in range(n):
         x = x0 + i * pitch
         v = noise(i)
         tall = v > 0.86
         h = 3 + v * (tall_h if tall else short_h)
-        t = (x + sweep_w) / span * CYCLE
+        t = (x + 0.625) / speed - PEAK * CYCLE
         out.append(
             f'<rect class="tk" x="{x:.1f}" y="{base_y - h:.1f}" width="{pitch * .38:.1f}" '
             f'height="{h:.1f}" fill="{p["mint"] if tall else p["line2"]}" '
@@ -148,7 +155,7 @@ def sweep_g(p, h, sweep_w):
 def motion_css(p, w, sweep_w):
     return (
         f".tk{{animation:pulse {CYCLE}s linear infinite}}"
-        f"@keyframes pulse{{0%{{opacity:{p['tickbase']}}}3%{{opacity:1}}"
+        f"@keyframes pulse{{0%{{opacity:{p['tickbase']}}}{PEAK * 100:g}%{{opacity:1}}"
         f"13%{{opacity:{p['tickbase']}}}100%{{opacity:{p['tickbase']}}}}}"
         f"#sc{{animation:travel {CYCLE}s linear infinite}}"
         f"@keyframes travel{{from{{transform:translateX({-sweep_w}px)}}to{{transform:translateX({w}px)}}}}"
