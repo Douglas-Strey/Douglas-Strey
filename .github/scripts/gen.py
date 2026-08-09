@@ -29,7 +29,7 @@ DARK = dict(
 LIGHT = dict(
     bg="#FFFFFF", panel="#F7F9FB", line="#DEE6EE", line2="#A9BAC9",
     text="#131E29", dim="#4B5D6B", dimmer="#5F6D79",
-    mint="#0A7E57", sweep="#0A7E57", sweepop=".13", tickbase=".34", edgeop="0",
+    mint="#0A7E57", sweep="#0A7E57", sweepop=".13", tickbase=".34", edgeop=".22",
 )
 
 CONTRACT = """
@@ -131,17 +131,17 @@ def sweep_defs(p, w, h, sweep_w):
     return (
         f'<defs><linearGradient id="sw" x1="0" x2="1" y1="0" y2="0">'
         f'<stop offset="0" stop-color="{p["sweep"]}" stop-opacity="0"/>'
-        f'<stop offset=".55" stop-color="{p["sweep"]}" stop-opacity="{p["sweepop"]}"/>'
-        f'<stop offset=".92" stop-color="{p["sweep"]}" stop-opacity="0"/></linearGradient>'
+        f'<stop offset=".62" stop-color="{p["sweep"]}" stop-opacity="{float(p["sweepop"]) * .42:.3f}"/>'
+        f'<stop offset="1" stop-color="{p["sweep"]}" stop-opacity="{p["sweepop"]}"/></linearGradient>'
         f'<filter id="bl" x="-30%" y="-30%" width="160%" height="160%">'
-        f'<feGaussianBlur stdDeviation="16"/></filter></defs>'
+        f'<feGaussianBlur stdDeviation="13"/></filter></defs>'
     )
 
 
 def sweep_g(p, h, sweep_w):
     return (
         f'<g id="sc"><rect x="0" y="0" width="{sweep_w}" height="{h}" fill="url(#sw)" filter="url(#bl)"/>'
-        f'<rect x="{sweep_w - 1.5}" y="0" width="1.5" height="{h}" fill="{p["sweep"]}" opacity="{p['edgeop']}"/></g>'
+        f'<rect x="{sweep_w - 1.25}" y="0" width="1.25" height="{h}" fill="{p["sweep"]}" opacity="{p['edgeop']}"/></g>'
     )
 
 

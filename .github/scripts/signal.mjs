@@ -105,6 +105,7 @@ function svg(p, m, { W, numSize, labSize, cols, height, gap }) {
   const figures = [
     [n(m.total, numSize), "contributions"],
     [n(m.active, numSize), "active days"],
+    [n(m.current, numSize), "current streak"],
     [n(m.longest, numSize), "longest streak"],
     [n(m.busiest, numSize), "busiest day"],
   ];
@@ -113,7 +114,8 @@ function svg(p, m, { W, numSize, labSize, cols, height, gap }) {
   const parts = [
     `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${height}" width="${W}" height="${height}" role="img" ` +
       `aria-label="Last 12 months: ${m.total} contributions across ${m.active} active days, ` +
-      `longest streak ${m.longest} days, busiest day ${m.busiest} contributions" font-kerning="none">` +
+      `current streak ${m.current} days, longest streak ${m.longest} days, ` +
+      `busiest day ${m.busiest} contributions" font-kerning="none">` +
       `<title>Contribution signal, last 12 months</title><style>${FONT_CSS}` +
       `text{font-family:GM,ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre}` +
       `.n{font-weight:600;font-size:${numSize}px;letter-spacing:-.03em;fill:${p.text}}` +
@@ -134,8 +136,8 @@ function svg(p, m, { W, numSize, labSize, cols, height, gap }) {
   return parts.join("") + "</svg>";
 }
 
-const WIDE = { W: 1200, numSize: 34, labSize: 12.5, cols: 4, height: 104, gap: 56 };
-const NARROW = { W: 360, numSize: 26, labSize: 11, cols: 2, height: 132, gap: 46 };
+const WIDE = { W: 1200, numSize: 32, labSize: 12, cols: 5, height: 100, gap: 54 };
+const NARROW = { W: 360, numSize: 24, labSize: 10.5, cols: 2, height: 196, gap: 44 };
 
 const metrics = measure(await fetchCalendar());
 for (const [theme, p] of [["dark", DARK], ["light", LIGHT]]) {

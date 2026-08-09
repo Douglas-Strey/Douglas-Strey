@@ -29,8 +29,6 @@ The parts I actually care about are the ones that survive the first release: cle
   <img alt="Last 12 months of contributions, active days, longest streak and busiest day" src="./assets/signal-light.svg">
 </picture>
 
-These numbers are rendered by this repository on a schedule — no third-party stats service — and they include private-repository work. The snake below eats the same year, one commit at a time.
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Douglas-Strey/Douglas-Strey/output/snake-dark.svg">
   <img alt="A snake eating Douglas Strey's GitHub contribution graph" src="https://raw.githubusercontent.com/Douglas-Strey/Douglas-Strey/output/snake-light.svg">
