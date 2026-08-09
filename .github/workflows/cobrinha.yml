@@ -1,23 +1,43 @@
-name: Generate Datas
+name: cobrinha
+
+# Renders the contribution graph as a snake, in a dark and a light variant,
+# and publishes both to the `output` branch. The README picks one via <picture>.
+#
+# The snake only sees private-repo commits while
+# Settings > Public profile > "Include private contributions on my profile"
+# is enabled. Without it, days spent in private org repos render as empty.
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */2 * * *"
+  schedule:
+    - cron: "0 2,14 * * *" # twice a day
   workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cobrinha
+  cancel-in-progress: true
 
 jobs:
-  build:
-    name: Jobs to update datas
+  generate:
+    name: generate and publish
     runs-on: ubuntu-latest
     steps:
-      # Snake Animation
-      - uses: Platane/snk@master
-        id: snake-gif
+      - name: Generate snake variants
+        uses: Platane/snk@v3
+        id: snake
         with:
-          github_user_name: Douglas-Strey
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#3DDC97
+            dist/snake-light.svg?palette=github-light&color_snake=#0A8C61
 
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist

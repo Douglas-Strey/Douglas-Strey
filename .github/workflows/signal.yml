@@ -1,0 +1,48 @@
+name: signal
+
+# Regenerates assets/signal-*.svg from the contribution calendar and commits the
+# result. Self-hosted on purpose: the third-party stats services this profile
+# used before both went dark and left broken images on the page.
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily, off the hour so it is not queued behind the rush
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/scripts/**"
+      - ".github/workflows/signal.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: signal
+  cancel-in-progress: true
+
+jobs:
+  render:
+    name: render and commit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Render signal panels
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USER_LOGIN: ${{ github.repository_owner }}
+        run: node .github/scripts/signal.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/signal-*.svg
+          git diff --staged --quiet || git commit -m "chore: refresh signal panel"
+          git push

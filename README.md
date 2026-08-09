@@ -1,62 +1,41 @@
-## Hey, dev 👋🏼
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/banner-dark-sm.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/banner-light-sm.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <img alt="Douglas Strey — Tech Lead and Senior Software Engineer, Santa Catarina, Brazil" src="./assets/banner-light.svg">
+</picture>
 
-Sou o **Douglas Strey**, de Santa Catarina – Brasil 🇧🇷  
-**Tech Lead** e **Senior Back end** na Hisoft, apaixonado por tecnologia, desenvolvimento web e aprendizado contínuo.
+I work as **Tech Lead** and **Senior Software Engineer** at **[Hisoft](https://github.com/hisoft-br)** and **Podtech**, two companies under the same group. I take products from architecture to production: Laravel APIs, Vue and Nuxt front ends, React Native apps, and the pipelines and infrastructure that keep them running.
 
-> "Always learning, always building."
+Most of my week goes into **[QuimeraX](https://quimerax.com)**, the Hakai group's threat intelligence platform — attack surface monitoring, leak and vulnerability detection, and takedown automation. The rest goes to **Fiscaliza** (civic inspection: Laravel API, Vue dashboard, Expo app with NFC and offline capture), **Acolher** (healthcare), **SIGRI** (desktop + API) and **[Verity](https://github.com/VerityProjects)**.
 
----
+The parts I actually care about are the ones that survive the first release: clear boundaries between modules, tests that catch something real, review culture, and making the engineers around me faster than they were last quarter.
 
-## Sobre mim
+## Stack
 
-- **Localização**: Santa Catarina, Brasil  
-- **Atuação atual**: Tech Lead na **Hisoft**, trabalhando principalmente com **PHP**
-- **Stack principal**: PHP, Laravel, MySQL, **Vue.js** e **Nuxt**  
-- **Experiência**: estudando desenvolvimento web desde **2019**  
-- **Interesses**: boas práticas de código, arquitetura de aplicações, performance e experiências de usuário modernas  
-- **Perfil**: sempre aberto a novos desafios, novas tecnologias e oportunidades para crescer como engenheiro de software
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/stack-dark-sm.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/stack-light-sm.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <img alt="Stack — backend: PHP, Laravel, Python, Go, REST and GraphQL APIs. Frontend: Vue, Nuxt, TypeScript, JavaScript, SCSS. Mobile: React Native, Expo, Swift. Data: MySQL, PostgreSQL, Redis, queues and workers. Platform: Docker, GitHub Actions, AWS, DigitalOcean, Sentry. Practice: code review, testing with Pest and PHPUnit, mentoring, architecture." src="./assets/stack-light.svg">
+</picture>
 
----
+## Activity
 
-## Tecnologias & Ferramentas
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/signal-dark-sm.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/signal-light-sm.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/signal-dark.svg">
+  <img alt="Last 12 months of contributions, active days, longest streak and busiest day" src="./assets/signal-light.svg">
+</picture>
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="Douglas-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Douglas-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="Douglas-Vue" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg">
-  <img align="center" alt="Douglas-Nuxt" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nuxtjs/nuxtjs-original.svg">
-  <img align="center" alt="Douglas-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Douglas-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Douglas-PHP" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
-  <img align="center" alt="Douglas-MySQL" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
-  <img align="center" alt="Douglas-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-</div>
+These numbers are rendered by this repository on a schedule — no third-party stats service — and they include private-repository work. The snake below eats the same year, one commit at a time.
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Douglas-Strey/Douglas-Strey/output/snake-dark.svg">
+  <img alt="A snake eating Douglas Strey's GitHub contribution graph" src="https://raw.githubusercontent.com/Douglas-Strey/Douglas-Strey/output/snake-light.svg">
+</picture>
 
-## Estatísticas do GitHub
+## Elsewhere
 
-> Às vezes o host padrão de stats fica instável ou bloqueado pelo GitHub.  
-> Abaixo está uma URL espelhada que costuma funcionar melhor.
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Douglas-Strey&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Douglas Strey GitHub stats"/>
-  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Douglas-Strey&layout=compact&langs_count=7&theme=dracula" alt="Douglas Strey top languages"/>
-</div>
-
----
-
-## Onde me encontrar
-
-[![Linkedin Badge](https://img.shields.io/badge/-Douglas%20Strey-4575cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/douglas-strey/)](https://www.linkedin.com/in/douglas-strey/)
-[![Instagram Badge](https://img.shields.io/badge/-Instagram-yellow?style=flat-square&logo=Instagram&logoColor=white&link=https://instagram.com/douglas_strey)](https://instagram.com/douglas_strey)
-[![Gmail Badge](https://img.shields.io/badge/-douglas.strey@outlook.com-c14438?style=flat-square&logo=Outlook&logoColor=white)](mailto:douglas.strey@outlook.com)
-
-<img src="https://komarev.com/ghpvc/?username=Douglas-Strey&color=green" alt="Douglas-Strey profile views" />
-
----
-
-## Contribuições
-
-![Snake animation](https://github.com/Douglas-Strey/Douglas-Strey/blob/output/github-contribution-grid-snake.svg)
-
+[douglasstrey.com](https://douglasstrey.com/) · [LinkedIn](https://www.linkedin.com/in/douglas-strey/) · [douglas.strey@outlook.com](mailto:douglas.strey@outlook.com)
